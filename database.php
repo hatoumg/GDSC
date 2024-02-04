@@ -1,12 +1,12 @@
 <?php
 // Database connection parameters
-$servername = "localhost";
-$username = "root";
-$password = "root";
+$servername = "172.18.98.107";
+$username = "member@EV";
+$password = "1234";
 $database = "gdsc";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $database) or die(mysqli_error());
 
 // Check connection
 if ($conn->connect_error) {
