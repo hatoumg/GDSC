@@ -6,7 +6,50 @@ body{
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    margin: 0; /* Remove default margin */
+
+}
+
+.login-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999; /* Set a higher z-index to ensure the link is above other elements */
+}
+
+.login-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #006600;
+    color: #ffffff;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: auto;
+}
+
+.section {
+    color: white; /* Set text color to white for better visibility on the black background */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust the text color as needed */
+}
+
+.logo {
+    max-width: 150px; /* Adjust the size as needed */
+}
+
+.options {
+    display: block;
 }
 
 body::-webkit-scrollbar {

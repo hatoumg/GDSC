@@ -20,12 +20,18 @@
         <p>Please input your location and Price</p>
         <form action="database.php" method="post">
             <div class="input-group">
+                <!--
                 <input type="text" name="address" id="address" placeholder="street address" required>
                 <input type="text" name="city" id="city" placeholder="city" required>
                 <input type="text" name="province" id="province" placeholder="province" required>
                 <input type="text" name="postal_code" id="postal_code" placeholder="postal code" required>
                 <input type="text" name="country" id="country" placeholder="country" required>
                 <input type="number" name="price" id="price" step="0.01" placeholder="price" required>
+                -->
+                <input type="number" name="latitude" id="latitude" step="0.00000001" placeholder="latitude" required>
+                <input type="number" name="longitude" id="longitude" step="0.00000001" placeholder="longitude" required>
+                <input type="number" name="price" id="price" step="0.01" placeholder="price" required>
+
             </div>
             <button type="submit">SUBMIT</button>
         </form>
