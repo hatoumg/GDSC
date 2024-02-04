@@ -1,8 +1,8 @@
 <?php
 // Database connection parameters
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "172.18.98.107";
+$username = "member@EV";
+$password = "1234";
 $database = "gdsc";
 
 // Create connection

@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body{
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     overflow-y: scroll;
     height: 100vh;
-    margin: 0; /* Remove default margin */
+    margin: 0;
 
 }
 
@@ -14,7 +14,7 @@ body{
     position: absolute;
     top: 10px;
     right: 10px;
-    z-index: 9999; /* Set a higher z-index to ensure the link is above other elements */
+    z-index: 9999;
 }
 
 .login-button {
@@ -32,7 +32,7 @@ body{
 }
 
 .section {
-    color: white; /* Set text color to white for better visibility on the black background */
+    color: white;
 }
 
 .overlay {
