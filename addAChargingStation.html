@@ -22,11 +22,15 @@
             <form action="database.php" method="post">
                 <div class="form-container">
                     <div class="input-group">
+                        <!--
                         <input type="text" name="address" id="address" placeholder="Street Address" required>
                         <input type="text" name="city" id="city" placeholder="City" required>
                         <input type="text" name="province" id="province" placeholder="Province" required>
                         <input type="text" name="postal_code" id="postal_code" placeholder="Postal Code" required>
                         <input type="text" name="country" id="country" placeholder="Country" required>
+                        -->
+                        <input type="number" name="latitude" id="latitude" step=0.00000001 placeholder="latitude" required>
+                        <input type="number" name="longitude" id="longitude" step=0.00000001 placeholder="longitude" required>
                         <input type="number" name="price" id="price" step="0.01" placeholder="Price" required>
                     </div>
                     <button type="submit">SUBMIT</button>
