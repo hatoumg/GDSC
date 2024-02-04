@@ -6,7 +6,7 @@ body{
     scrollbar-width: none; /* for Firefox */
     overflow-y: scroll;
     height: 100vh;
-    background-color: darkslategrey;
+    background-color: rgb(0, 0, 0);
 }
 
 body::-webkit-scrollbar {

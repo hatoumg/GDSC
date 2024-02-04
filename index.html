@@ -16,21 +16,16 @@
     </div>
     
     <div class="section">
-        <h2 id="find">Find Charging Station</h2>
-        <p>Please input your location to find near by Charging Station</p>
-        <div class="input-group">
-            <input type="text" id="locationU" placeholder="Location" required>                        
-        </div>
-        <button type="submit">SEARCH</button>
-    </div>
-    
-    <div class="section">
         <h2 id="add">Add Charging Station</h2>
         <p>Please input your location and Price</p>
         <form action="database.php" method="post">
             <div class="input-group">
-                <input type="text" name="location" id="locationU" placeholder="Location" required>
-                <input type="number" name="price" step="0.01" placeholder="Price" required>
+                <input type="text" name="address" id="address" placeholder="street address" required>
+                <input type="text" name="city" id="city" placeholder="city" required>
+                <input type="text" name="province" id="province" placeholder="province" required>
+                <input type="text" name="postal_code" id="postal_code" placeholder="postal code" required>
+                <input type="text" name="country" id="country" placeholder="country" required>
+                <input type="number" name="price" id="price" step="0.01" placeholder="price" required>
             </div>
             <button type="submit">SUBMIT</button>
         </form>
