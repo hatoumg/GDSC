@@ -2,12 +2,54 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body{
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     overflow-y: scroll;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
-    color: #fff;
+    margin: 0;
+
+}
+
+.login-link {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+}
+
+.login-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #006600;
+    color: #ffffff;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: auto;
+}
+
+.section {
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Adjust the text color as needed */
+}
+
+.logo {
+    max-width: 150px; /* Adjust the size as needed */
+}
+
+.options {
+    display: block;
 }
 
 body::-webkit-scrollbar {

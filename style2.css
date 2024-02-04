@@ -1,0 +1,75 @@
+body {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden; 
+}
+
+.background-blend {
+    background: #03C04A;
+    height: 100%;
+    color: #808080; /* Gray text color */
+    position: relative;
+}
+
+.background-video {
+    object-fit: cover; /* Ensure the video covers the entire background */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.section {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+#add {
+    color: #fff;
+}
+
+.form-description {
+    color: #ffffff;
+}
+
+.form-container {
+    background-color: rgb(255, 255, 194);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 0;
+    color: #ffffff; /* Black text color */
+    background-color: #03C04A; /* Dark green background color */
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    cursor: pointer;
+    transition: 0.1s;
+    font-family: Verdana, sans-serif; /* Set font to Verdana */
+}

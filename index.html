@@ -6,31 +6,23 @@
     <title>ChargeHubConnect</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <a href="login.html" class="login-link">
+        <button class="login-button">Login</button>
+    </a>
     <div class="section" id="intro">
-        <h1 id="title">Welcome to ChargeHubConnect</h1>
-        <ul>
-            <li><a href="user.html">Find A Charging Station</a></li>
-            <li><a href="#add">Add Charging Station</a></li>
-        </ul>
-    </div>
-    
-    <div class="section">
-        <h2 id="add">Add Charging Station</h2>
-        <p>Please input your location and Price</p>
-        <form action="database.php" method="post">
-            <div class="input-group">
-                <input type="text" name="address" id="address" placeholder="street address" required>
-                <input type="text" name="city" id="city" placeholder="city" required>
-                <input type="text" name="province" id="province" placeholder="province" required>
-                <input type="text" name="postal_code" id="postal_code" placeholder="postal code" required>
-                <input type="text" name="country" id="country" placeholder="country" required>
-                <input type="number" name="price" id="price" step="0.01" placeholder="price" required>
-            </div>
-            <button type="submit">SUBMIT</button>
-        </form>
+        <video width=1536 autoplay muted loop id="ChargeHubConnectBackground">
+            <source src="ChargeHubConnectBackground.mp4">
+        </video>
+        <div class="overlay">
+            <img src="ChargeHubConnect_Logo.png" alt="ChargeHubConnect_Logo" class = "logo">
+            <h1 style="color: #c0c0c0; font-family: verdana;" id="title">ChargeHubConnect</h1>
+            <ul>
+                <li class="options"><a href="user.html" class="button" style="color: #c0c0c0; font-family: verdana;">Find A Charging Station</a></li>
+                <li class="options"><a href="addAChargingStation.html" class="button" style="color: #c0c0c0; font-family: verdana;">Add Charging Station</a></li>
+            </ul>
+        </div>
     </div>
 </body>
 </html>
-
-AIzaSyBL-jefTERq2BjdgsxGUZEJ5QlGAwlhbm0
