@@ -6,7 +6,7 @@ $password = "";
 $database = "gdsc";
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $database);
+$conn = new mysqli($servername, $username, $password, $database) or die(mysqli_error());
 
 // Check connection
 if ($conn->connect_error) {
